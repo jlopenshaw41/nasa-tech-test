@@ -9,6 +9,7 @@ exports[`<Search /> renders and matches snapshot 1`] = `
       aria-label="Search"
       class="search-input"
       data-testid="search-input"
+      placeholder="Search NASA's image library..."
       type="text"
     />
     <button

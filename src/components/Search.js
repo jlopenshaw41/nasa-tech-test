@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import getImages from "../requests/getImages";
 
-const Search = () => {
-  const [value, setValue] = useState("");
+const Search = ({ setSearchResults }) => {
+  const [value, setValue] = useState();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    getImages(value);
+    setSearchResults(getImages(value));
   }
 
   return (

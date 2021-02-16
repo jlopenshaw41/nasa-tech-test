@@ -2,10 +2,22 @@
 
 exports[`<Search /> renders and matches snapshot 1`] = `
 <DocumentFragment>
-  <input
-    class="search-input"
-    data-testid="search-input"
-    type="text"
-  />
+  <form
+    class="search-form"
+  >
+    <input
+      aria-label="Search"
+      class="search-input"
+      data-testid="search-input"
+      type="text"
+    />
+    <button
+      class="search-btn"
+      data-testid="search-btn"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
 </DocumentFragment>
 `;

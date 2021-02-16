@@ -7,9 +7,15 @@ describe("<Search />", () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it("renders as expected", () => {
+  it("renders search input as expected", () => {
     const { getByTestId } = render(<Search />);
     const input = getByTestId("search-input");
     expect(input).toBeTruthy();
   });
+
+  it("renders search button as expected", () => {
+    const { getByTestId } = render(<Search />);
+    const button = getByTestId("search-btn");
+    expect(button).toBeTruthy();
+  })
 });

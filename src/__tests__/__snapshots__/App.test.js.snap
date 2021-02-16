@@ -12,11 +12,23 @@ exports[`<App /> renders and matches snapshot 1`] = `
       data-testid="logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
-    <input
-      class="search-input"
-      data-testid="search-input"
-      type="text"
-    />
+    <form
+      class="search-form"
+    >
+      <input
+        aria-label="Search"
+        class="search-input"
+        data-testid="search-input"
+        type="text"
+      />
+      <button
+        class="search-btn"
+        data-testid="search-btn"
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
   </div>
 </DocumentFragment>
 `;

@@ -1,10 +1,10 @@
-import '../styles/App.css';
+import "../styles/App.css";
 import Search from "./Search.js";
 
 function App() {
   return (
     <div className="App" data-testid="app">
-      <p>Hello world!</p>
+      <img className="logo" src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" />
       <Search />
     </div>
   );

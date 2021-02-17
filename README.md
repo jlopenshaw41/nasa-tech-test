@@ -60,6 +60,7 @@ If time were no object, I would add the following features to the app:
 - Images that expand on click - images would 'pop up' when clicked, expanding to display further information such as the 'description' field provided by the NASA API
 - 'Add to favourites' functionality, allowing user to store images in a 'favourites' gallery by clicking an icon on the image. There would also be corresponding 'remove favourite' functionality
 - 'Add to favourites' icon and 'Click to see more' text would appear upon hovering over an image
+- Improve the loading experience by implementing a loading screen/spinning icon whilst all images are being retrieved from the API and loaded, to avoid jerky loading as at present
 
 ## Contact
 

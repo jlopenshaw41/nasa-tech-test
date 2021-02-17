@@ -3,12 +3,17 @@ import "../styles/SearchResults.css";
 
 const SearchResults = ({ results }) => {
   return results.length ? (
-    <>
-      <img
-        src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        alt="tbc"
-      />
-    </>
+    results.map((result) => {
+      return (
+        <>
+          <img
+            className="image"
+            src={result}
+            alt="Search result from NASA database"
+          />
+        </>
+      );
+    })
   ) : (
     <p>No results</p>
   );

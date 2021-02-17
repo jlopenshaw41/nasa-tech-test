@@ -20,7 +20,7 @@ const SearchResults = ({ results }) => {
     })
   ) : (
     <p>Sorry, no results. Please try again</p>
-  );
+    );
 };
 
 SearchResults.propTypes = {

@@ -8,7 +8,7 @@ The app is responsive and has been styled appropriately for both mobile and desk
 
 During the development process, the app was fully tested using Jest and React Testing Library to write unit tests, following Test-Driven Development (TDD) methodology.
 
-You can see a live deployed version of the app [by clicking here.](TBC)
+You can see a live deployed version of the app [by clicking here.](https://nasa-tech-test.vercel.app/)
 
 ## Screenshots
 
@@ -30,7 +30,7 @@ You can see a live deployed version of the app [by clicking here.](TBC)
 
 ## Instructions to run app locally
 
-You can either view the live deployment [by clicking here](TBC) or:
+You can either view the live deployment [by clicking here](https://nasa-tech-test.vercel.app/) or:
 
 1. Clone this repo:
 

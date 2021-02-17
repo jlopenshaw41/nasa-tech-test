@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "../styles/App.css";
 import Search from "./Search.js";
 import SearchResults from "./SearchResults";
+import preloadedImages from "../data/preloadedImages";
 
 function App() {
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchResults, setSearchResults] = useState(preloadedImages);
 
   return (
     <div className="App" data-testid="app">

@@ -15,7 +15,9 @@ function App() {
         data-testid="logo"
       />
       <Search setSearchResults={setSearchResults} />
-      <SearchResults results={searchResults} />
+      <div className="search-results">
+        <SearchResults results={searchResults} />
+      </div>
     </div>
   );
 }

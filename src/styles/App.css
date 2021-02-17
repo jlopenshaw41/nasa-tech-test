@@ -8,3 +8,9 @@
     margin: auto;
     width: 40%;
 }
+
+@media only screen and (max-width: 750px) {
+    .logo {
+        width: 50%;
+    }
+}

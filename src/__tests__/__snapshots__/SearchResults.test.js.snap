@@ -3,8 +3,46 @@
 exports[`<SearchResults /> renders and matches snapshot 1`] = `
 <DocumentFragment>
   <img
-    alt="tbc"
-    src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+    alt="Search result from NASA database"
+    class="image"
+    data-testid="image"
+    src="https://images-assets.nasa.gov/image/PIA06632/PIA06632~thumb.jpg"
+  />
+  <img
+    alt="Search result from NASA database"
+    class="image"
+    data-testid="image"
+    src="https://images-assets.nasa.gov/image/PIA06640/PIA06640~thumb.jpg"
+  />
+  <img
+    alt="Search result from NASA database"
+    class="image"
+    data-testid="image"
+    src="https://images-assets.nasa.gov/image/PIA07606/PIA07606~thumb.jpg"
+  />
+  <img
+    alt="Search result from NASA database"
+    class="image"
+    data-testid="image"
+    src="https://images-assets.nasa.gov/image/PIA08946/PIA08946~thumb.jpg"
+  />
+  <img
+    alt="Search result from NASA database"
+    class="image"
+    data-testid="image"
+    src="https://images-assets.nasa.gov/image/PIA09000/PIA09000~thumb.jpg"
+  />
+  <img
+    alt="Search result from NASA database"
+    class="image"
+    data-testid="image"
+    src="https://images-assets.nasa.gov/image/PIA09240/PIA09240~thumb.jpg"
+  />
+  <img
+    alt="Search result from NASA database"
+    class="image"
+    data-testid="image"
+    src="https://images-assets.nasa.gov/image/PIA09853/PIA09853~thumb.jpg"
   />
 </DocumentFragment>
 `;

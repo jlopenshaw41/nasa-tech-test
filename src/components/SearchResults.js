@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/SearchResults.css";
+import PropTypes from "prop-types";
 
 const SearchResults = ({ results }) => {
   return results.length ? (
@@ -10,6 +11,7 @@ const SearchResults = ({ results }) => {
             className="image"
             src={result}
             alt="Search result from NASA database"
+            data-testid="image"
           />
         </>
       );
@@ -18,5 +20,9 @@ const SearchResults = ({ results }) => {
     <p>No results</p>
   );
 };
+
+SearchResults.propTypes = {
+  results: PropTypes.array.isRequired,
+}
 
 export default SearchResults;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Search.css";
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import getImages from "../requests/getImages";
@@ -30,5 +31,9 @@ const Search = ({ setSearchResults }) => {
     </>
   );
 };
+
+Search.propTypes = {
+  setSearchResults: PropTypes.func.isRequired,
+}
 
 export default Search;
